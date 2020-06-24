@@ -1,0 +1,21 @@
+{
+  "name": "wetube_restart",
+  "version": "1.0.0",
+  "description": "Cloning Youtube with Vanilla and NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/funkyblues/Wetube_restart.git"
+  },
+  "author": "Changuk",
+  "bugs": {
+    "url": "https://github.com/funkyblues/Wetube_restart/issues"
+  },
+  "homepage": "https://github.com/funkyblues/Wetube_restart#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
