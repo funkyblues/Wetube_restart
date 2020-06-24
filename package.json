@@ -2,8 +2,8 @@
   "name": "wetube_restart",
   "version": "1.0.0",
   "description": "Cloning Youtube with Vanilla and NodeJs",
-  "main": "index.js",
   "scripts": {
+    "start": "nodemon --exec babel-node index.js --delay 2",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,6 +16,12 @@
   },
   "homepage": "https://github.com/funkyblues/Wetube_restart#readme",
   "dependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/node": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
