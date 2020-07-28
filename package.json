@@ -1,27 +1,31 @@
 {
-  "name": "wetube_restart",
-  "version": "1.0.0",
-  "description": "Cloning Youtube with Vanilla and NodeJs",
-  "scripts": {
-    "start": "nodemon --exec babel-node index.js --delay 2",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/funkyblues/Wetube_restart.git"
-  },
-  "author": "Changuk",
-  "bugs": {
-    "url": "https://github.com/funkyblues/Wetube_restart/issues"
-  },
-  "homepage": "https://github.com/funkyblues/Wetube_restart#readme",
-  "dependencies": {
-    "@babel/core": "^7.10.3",
-    "@babel/node": "^7.10.3",
-    "@babel/preset-env": "^7.10.3",
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
-  }
+	"name": "wetube_restart",
+	"version": "1.0.0",
+	"description": "Cloning Youtube with Vanilla and NodeJs",
+	"scripts": {
+		"start": "nodemon --exec babel-node init.js --delay 2",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/funkyblues/Wetube_restart.git"
+	},
+	"author": "Changuk",
+	"bugs": {
+		"url": "https://github.com/funkyblues/Wetube_restart/issues"
+	},
+	"homepage": "https://github.com/funkyblues/Wetube_restart#readme",
+	"dependencies": {
+		"@babel/core": "^7.10.3",
+		"@babel/node": "^7.10.3",
+		"@babel/preset-env": "^7.10.3",
+		"body-parser": "^1.19.0",
+		"cookie-parser": "^1.4.5",
+		"express": "^4.17.1",
+		"helmet": "^3.23.3",
+		"morgan": "^1.10.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.4"
+	}
 }
