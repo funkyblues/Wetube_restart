@@ -1,6 +1,7 @@
 header.header
   .header__column
-    i.fa.fa-youtube-play
+    a(href=routes.home)
+      i.fa.fa-youtube-play 
   .header__column
     form(action=routes.search, method="get")
       input(type="text", placeholder="Search by term...", name="term")
